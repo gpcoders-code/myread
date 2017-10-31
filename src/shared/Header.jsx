@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 const Header = () => {
     return(
@@ -33,23 +33,23 @@ const Header = () => {
                                 </div>
                                 <div className="navbar-collapse hidden-sm hidden-xs">
                                     <ul className="nav navbar-nav">
-                                        <li className="dropdown active">
-                                            <Link to="/">HOME</Link>
+                                        <li activeClassName="active">
+                                            <NavLink to="/">HOME</NavLink>
                                         </li>
-                                        <li className="dropdown">
-                                            <Link to="/currently-reading">Currently Reading</Link>
+                                        <li activeClassName="active">
+                                            <NavLink to="/currently-reading" >Currently Reading</NavLink>
                                         </li>
-                                        <li className="dropdown">
-                                            <Link to="/wanted-to-read">Want To Read</Link>
+                                        <li activeClassName="active">
+                                            <NavLink to="/wanted-to-read" >Want To Read</NavLink>
                                         </li>
-                                        <li className="dropdown">
-                                            <Link to="/read">Read</Link>
+                                        <li activeClassName="active">
+                                            <NavLink to="/read" >Read</NavLink>
                                         </li>
-                                        <li className="dropdown">
-                                            <Link to="/search">Search Library</Link>
+                                        <li activeClassName="active">
+                                            <NavLink to="/search" >Search Library</NavLink>
                                         </li>
-                                        <li>
-                                            <Link to="/contact">Contact</Link>
+                                        <li activeClassName="active">
+                                            <NavLink to="/contact" >Contact</NavLink>
                                         </li>
                                     </ul>
                                 </div>
