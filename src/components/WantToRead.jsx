@@ -178,7 +178,7 @@ class WantToRead extends Component {
                                                                         </select>
                                                                     </div>
                                                                     <div className="col-sm-6 pull-right">
-                                                                        <a className="btn btn-dark-gray btn-lg" href="books-media-detail-v1.html">Read More</a>
+                                                                        <Link className="btn btn-dark-gray btn-lg" to={`/book/${book.id}`}>Read More</Link>
                                                                     </div>
                                                                 </footer>
                                                             </div>

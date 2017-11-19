@@ -12,6 +12,7 @@ import CurrentlyReading from './components/CurrentlyReading';
 import WantToRead from './components/WantToRead';
 import Read from './components/Read';
 import Search from './components/Search';
+import BookDetails from './components/BookDetails'
 
 
 const AppRoutes = () => {
@@ -25,6 +26,7 @@ const AppRoutes = () => {
                         <Route path="/wanted-to-read" component={WantToRead} />
                         <Route path="/read" component={Read} />
                         <Route path="/search" component={Search} />
+                        <Route path="/book/:id" component={BookDetails} />
                     </Switch>
                 <Footer/>
             </div>

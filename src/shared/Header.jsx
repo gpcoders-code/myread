@@ -33,20 +33,21 @@ const Header = () => {
                                 </div>
                                 <div className="navbar-collapse hidden-sm hidden-xs">
                                     <ul className="nav navbar-nav">
-                                        <li activeClassName="active">
+                                        <li>
                                             <NavLink to="/currently-reading" >Currently Reading</NavLink>
                                         </li>
-                                        <li activeClassName="active">
+                                        <li>
                                             <NavLink to="/wanted-to-read" >Want To Read</NavLink>
                                         </li>
-                                        <li activeClassName="active">
+                                        <li>
                                             <NavLink to="/read" >Read</NavLink>
                                         </li>
-                                        <li activeClassName="active">
+                                        <li>
                                             <NavLink to="/search" >Search Library</NavLink>
                                         </li>
                                     </ul>
                                 </div>
+
                             </div>
                         </div>
                     </nav>
