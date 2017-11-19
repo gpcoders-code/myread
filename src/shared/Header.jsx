@@ -24,18 +24,15 @@ const Header = () => {
                                     <div className="row">
                                         <div className="col-sm-6">
                                             <div className="topbar-info">
-                                                <a href="tel:+61-3-8376-6284"><i className="fa fa-phone"></i>+61-3-8376-6284</a>
+                                                <a href="#"><i className="fa fa-phone"></i>+91-12345-67890</a>
                                                 <span>/</span>
-                                                <a href="mailto:support@libraria.com"><i className="fa fa-envelope"></i>support@libraria.com</a>
+                                                <a href="mailto:support@libraria.com"><i className="fa fa-envelope"></i>pardipbhatti@gpcoders.com</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="navbar-collapse hidden-sm hidden-xs">
                                     <ul className="nav navbar-nav">
-                                        <li activeClassName="active">
-                                            <NavLink to="/">HOME</NavLink>
-                                        </li>
                                         <li activeClassName="active">
                                             <NavLink to="/currently-reading" >Currently Reading</NavLink>
                                         </li>
@@ -47,9 +44,6 @@ const Header = () => {
                                         </li>
                                         <li activeClassName="active">
                                             <NavLink to="/search" >Search Library</NavLink>
-                                        </li>
-                                        <li activeClassName="active">
-                                            <NavLink to="/contact" >Contact</NavLink>
                                         </li>
                                     </ul>
                                 </div>

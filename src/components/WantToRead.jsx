@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
+import { BarLoader } from 'react-spinners';
 
 /**
  * @Description: Importing the custom components
@@ -16,7 +18,8 @@ class WantToRead extends Component {
          * @type {{books: Array}}
          */
         this.state = {
-            books: []
+            books: [],
+            loading: false
         }
     }
 
@@ -24,6 +27,14 @@ class WantToRead extends Component {
      * @Description: Invoke the lifecycle hook after component is loaded
      */
     componentDidMount() {
+
+        /**
+         * @Description: setting spinner true
+         */
+        this.setState({
+            loading: true
+        });
+
         /**
          * @Description: Getting all books and passing them to state
          */
@@ -32,7 +43,8 @@ class WantToRead extends Component {
              * @Description: Updating the state with server response
              */
             this.setState({
-                books: response
+                books: response,
+                loading: false
             });
         })
     }
@@ -65,13 +77,12 @@ class WantToRead extends Component {
                 <section className="page-banner services-banner">
                     <div className="container">
                         <div className="banner-header">
-                            <h2>Books & Media Listing</h2>
+                            <h2>Want To Read</h2>
                             <span className="underline center"></span>
-                            <p className="lead">Proin ac eros pellentesque dolor pharetra tempo.</p>
                         </div>
                         <div className="breadcrumb">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><Link to="/">Home</Link></li>
                                 <li>Books & Media</li>
                             </ul>
                         </div>
@@ -83,15 +94,25 @@ class WantToRead extends Component {
                             <div className="books-media-list">
                                 <div className="container">
                                     <div className="row">
-
                                         <section className="search-filters">
                                             <div className="container">
                                                 <div className="filter-box">
-                                                    <h3>What are you looking for at the library?</h3>
+                                                    <div className="col-md-8 col-md-offset-3">
+                                                        {this.state.loading ?
+                                                            <BarLoader
+                                                                color={'#ff7236'}
+                                                                loading={this.state.loading}
+                                                                width={500}
+                                                            />
+                                                            :
+                                                            <div className="col-md-8 col-md-offset-3">
+                                                                <b>No of book in your reading wish list :  {this.state.books.filter((book) => book.shelf === 'wantToRead').length} </b>
+                                                            </div>
+                                                        }
+                                                    </div>
                                                 </div>
                                             </div>
                                         </section>
-
                                     </div>
                                     <div className="row">
                                         <div className="col-md-12">

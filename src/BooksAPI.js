@@ -32,17 +32,6 @@ export const update = (book, shelf) =>
         body: JSON.stringify({ shelf: shelf  })
     }).then(res => res.json())
 
-export const updateRating = (book, newRating) =>
-    fetch(`${api}/books/${book.id}`, {
-        method: 'PUT',
-        headers: {
-            ...headers,
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ averageRating: newRating  })
-    }).then(res => res.json())
-
-
 export const search = (query, maxResults) =>
   fetch(`${api}/search`, {
     method: 'POST',
