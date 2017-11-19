@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb7614cc-138c-480f-a76d-72c810df31b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Routes.jsx" afterPath="$PROJECT_DIR$/src/Routes.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CurrentlyReading.jsx" afterPath="$PROJECT_DIR$/src/components/CurrentlyReading.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Read.jsx" afterPath="$PROJECT_DIR$/src/components/Read.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/WantToRead.jsx" afterPath="$PROJECT_DIR$/src/components/WantToRead.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/Header.jsx" afterPath="$PROJECT_DIR$/src/shared/Header.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Search.jsx" afterPath="$PROJECT_DIR$/src/components/Search.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,10 +46,23 @@
         <entry file="file://$PROJECT_DIR$/src/components/CurrentlyReading.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="601">
-              <caret line="182" column="155" lean-forward="false" selection-start-line="182" selection-start-column="155" selection-end-line="182" selection-end-column="155" />
+              <caret line="182" column="155" lean-forward="true" selection-start-line="182" selection-start-column="72" selection-end-line="182" selection-end-column="155" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#184#223#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Search.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Search.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2345">
+              <caret line="240" column="155" lean-forward="false" selection-start-line="240" selection-start-column="155" selection-end-line="240" selection-end-column="155" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#270#309#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookDetails.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookDetails.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/BookDetails.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
+            <state relative-caret-position="628">
               <caret line="124" column="116" lean-forward="false" selection-start-line="124" selection-start-column="116" selection-end-line="124" selection-end-column="116" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -149,7 +157,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/shared/Rating.jsx" />
         <option value="$PROJECT_DIR$/src/BooksAPI.js" />
-        <option value="$PROJECT_DIR$/src/components/Search.jsx" />
         <option value="$PROJECT_DIR$/../demo.presstigers.com/libraria/public_html/books-media-detail-v2.html" />
         <option value="$PROJECT_DIR$/src/components/Read.jsx" />
         <option value="$PROJECT_DIR$/src/Routes.jsx" />
@@ -157,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/components/CurrentlyReading.jsx" />
         <option value="$PROJECT_DIR$/src/components/WantToRead.jsx" />
         <option value="$PROJECT_DIR$/src/components/BookDetails.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Search.jsx" />
       </list>
     </option>
   </component>
@@ -379,12 +387,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509308464960</updated>
       <workItem from="1509308466626" duration="33090000" />
-      <workItem from="1511076891656" duration="18050000" />
+      <workItem from="1511076891656" duration="18215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51140000" />
+    <option name="totallyTimeSpent" value="51305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2549" height="1356" extended-state="0" />
@@ -596,16 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Search.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="e#270#309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../demo.presstigers.com/libraria/public_html/books-media-detail-v2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -645,17 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CurrentlyReading.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="182" column="155" lean-forward="false" selection-start-line="182" selection-start-column="155" selection-end-line="182" selection-end-column="155" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#184#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/WantToRead.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3156">
@@ -669,11 +656,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/BookDetails.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
+        <state relative-caret-position="628">
           <caret line="124" column="116" lean-forward="false" selection-start-line="124" selection-start-column="116" selection-end-line="124" selection-end-column="116" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <element signature="e#167#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CurrentlyReading.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="182" column="155" lean-forward="true" selection-start-line="182" selection-start-column="72" selection-end-line="182" selection-end-column="155" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#184#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Search.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2345">
+          <caret line="240" column="155" lean-forward="false" selection-start-line="240" selection-start-column="155" selection-end-line="240" selection-end-column="155" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#270#309#0" expanded="true" />
           </folding>
         </state>
       </provider>
